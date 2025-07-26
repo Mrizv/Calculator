@@ -4,6 +4,8 @@
 }
 
 .container {
+  border-radius: 10px;
+  background-color: black;
   border: 6px solid black;
   margin-top: 100px;
   margin-left: 200px;
@@ -27,6 +29,7 @@
 
 /* Button Layout */
 .button0 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
@@ -34,52 +37,61 @@
   grid-column: 2;
 }
 .button1 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
   grid-row: 3;
 }
 .button2 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
   grid-row: 3;
 }
 .button3 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
   grid-row: 3;
 }
 .button4 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
   grid-row: 2;
 }
 .button5 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
   grid-row: 2;
 }
 .button6 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
   grid-row: 2;
 }
 .button7 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
 }
 .button8 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
 }
 .button9 {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: gray;
@@ -87,6 +99,7 @@
 
 /* Operator Layout */
 .operatorP {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: orangered;
@@ -94,6 +107,7 @@
   grid-row: 4;
 }
 .operatorMN {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: orangered;
@@ -101,6 +115,7 @@
   grid-row: 3;
 }
 .operatorMP {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: orangered;
@@ -108,12 +123,14 @@
   grid-row: 2;
 }
 .operatorD {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: orangered;
   grid-column: 4;
 }
 .operatorE {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: orangered;
@@ -121,6 +138,7 @@
   grid-row: 4;
 }
 .operatorC {
+  border-radius: 8px;
   font-size: 20px;
   padding: 5px;
   background-color: orangered;
