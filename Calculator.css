@@ -5,7 +5,6 @@
 
 .container {
   border: 6px solid black;
-  padding: 0px;
   margin-top: 100px;
   margin-left: 200px;
   margin-right: 200px;
@@ -23,74 +22,107 @@
   font-size: 30px;
   justify-content: right;
   border: 10px solid black;
+  padding: 3px;
 }
 
 /* Button Layout */
 .button0 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 4;
   grid-column: 2;
 }
 .button1 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 3;
 }
 .button2 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 3;
 }
 .button3 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 3;
 }
 .button4 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 2;
 }
 .button5 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 2;
 }
 .button6 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
   grid-row: 2;
 }
 .button7 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
 }
 .button8 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
 }
 .button9 {
+  font-size: 20px;
+  padding: 5px;
   background-color: gray;
 }
 
 /* Operator Layout */
 .operatorP {
+  font-size: 20px;
+  padding: 5px;
   background-color: orangered;
   grid-column: 4;
   grid-row: 4;
 }
 .operatorMN {
+  font-size: 20px;
+  padding: 5px;
   background-color: orangered;
   grid-column: 4;
   grid-row: 3;
 }
 .operatorMP {
+  font-size: 20px;
+  padding: 5px;
   background-color: orangered;
   grid-column: 4;
   grid-row: 2;
 }
 .operatorD {
+  font-size: 20px;
+  padding: 5px;
   background-color: orangered;
   grid-column: 4;
 }
 .operatorE {
+  font-size: 20px;
+  padding: 5px;
   background-color: orangered;
   grid-column: 3;
   grid-row: 4;
 }
 .operatorC {
+  font-size: 20px;
+  padding: 5px;
   background-color: orangered;
   grid-column: 1;
   grid-row: 4;
