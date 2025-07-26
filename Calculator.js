@@ -27,9 +27,16 @@ const content = document.getElementById("content");
 let currValue = "";
 let operand1 = null;
 let currOperator = "";
+let justEvaluated = false;
 
 allDigits.forEach((button) => {
   button.addEventListener("click", () => {
+    if (justEvaluated) {
+      currValue = "";
+      content.textContent = "";
+      justEvaluated = false;
+    }
+
     currValue += button.innerText;
     content.textContent = currValue;
   });
@@ -70,6 +77,7 @@ equals.addEventListener("click", () => {
     currValue = result.toString();
     operand1 = result;
     currOperator = "";
+    justEvaluated = true;
   }
 });
 
